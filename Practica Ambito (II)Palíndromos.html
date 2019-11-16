@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Palindromos</title>
+</head>
+<body>
+	<h1>Palindromos</h1>
+
+	<script type="text/javascript">
+		
+         
+         function siEsPalindromo (array);  { 
+
+            var palindromo = array.length;
+            //tenemos que la var palindromo es igual a la lomgitud del array .si el array esta vacio no es palindromo 
+         	if ( palindromo = 0; ) {
+         		return false;
+         	}
+         	 
+         	for( i = 0 ; i < array / 2; i ++){
+ 
+         		if (array [i] != arary [array  -1 - i] ) { 
+         	          return false; 
+
+         	      }
+         	  }
+         	  return true;
+
+         	}
+
+
+document.write (siEsPalindromo ( "oso"));
+document.write (siEsPalindromo("holasatodos"));
+
+
+
+         
+
+	</script>
+
+</body>
+</html>
